@@ -1,0 +1,9 @@
+IdentitiesOnly yes
+
+# Host domain.tld
+#   User s2b
+#   IdentityFile ~/.ssh/domain.tld
+
+# Host domain.tld
+#   User s2b
+#   PubkeyAuthentication no
