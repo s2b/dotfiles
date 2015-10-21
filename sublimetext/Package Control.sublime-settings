@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"CodeFormatter",
+		"Color Highlighter",
+		"DocBlockr",
+		"Emmet",
+		"EncodingHelper",
+		"GitGutter",
+		"Handlebars",
+		"Indent XML",
+		"JsFormat",
+		"LESS",
+		"LineEndings",
+		"LoremIpsum",
+		"nginx",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"SublimeLinter-xmllint",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
+		"TrailingSpaces",
+		"TYPO3 Fluid Snippets",
+		"TypoScript",
+		"Varnish VCL"
+	]
+}
