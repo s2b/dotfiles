@@ -6,6 +6,8 @@
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Use current PHP version for CLI
+# $ brew tap homebrew/php
+# $ brew install php56
 PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 
 export PATH
@@ -36,6 +38,7 @@ export CLICOLOR=1
 #
 
 # Show HTTP headers
+# $ brew install httpie
 alias headers='http -p Hh '
 
 # Better directory listings
@@ -55,6 +58,7 @@ alias localip="ipconfig getifaddr en0"
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Android web debugging
+# $ brew install android-sdk
 alias androiddebug='open http://localhost:9222 && adb forward tcp:9222 localabstract:chrome_devtools_remote'
 
 # Generate 8-digit simple password
@@ -62,6 +66,7 @@ alias password="openssl rand -base64 6"
 
 #
 # More autocomplete for bash
+# $ brew install bash-completion
 #
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
