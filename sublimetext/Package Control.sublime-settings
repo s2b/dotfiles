@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"ApacheConf.tmLanguage",
+		"ApplySyntax",
 		"CodeFormatter",
 		"Color Highlighter",
 		"DocBlockr",
@@ -14,6 +15,7 @@
 		"GitGutter",
 		"Handlebars",
 		"Indent XML",
+		"INI",
 		"JsFormat",
 		"LESS",
 		"LineEndings",
