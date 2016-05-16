@@ -10,6 +10,10 @@ PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # $ brew install php56
 PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 
+# Add composer path
+export COMPOSER_HOME="~/.composer"
+PATH="$PATH:$COMPOSER_HOME/vendor/bin"
+
 export PATH
 
 #
