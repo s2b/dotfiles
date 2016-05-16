@@ -10,6 +10,7 @@
 		"CodeFormatter",
 		"Color Highlighter",
 		"DocBlockr",
+		"EditorConfig",
 		"Emmet",
 		"EncodingHelper",
 		"GitGutter",
@@ -17,11 +18,14 @@
 		"Indent XML",
 		"INI",
 		"JsFormat",
+		"Laravel Blade Highlighter",
 		"LESS",
 		"LineEndings",
 		"LoremIpsum",
 		"nginx",
 		"Package Control",
+		"Sass",
+		"SqlBeautifier",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-csslint",
@@ -32,8 +36,9 @@
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
+		"Twig",
+		"TypeScript",
 		"TYPO3 Fluid Snippets",
-		"TypoScript",
 		"Varnish VCL"
 	]
 }
