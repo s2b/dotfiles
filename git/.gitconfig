@@ -1,0 +1,16 @@
+[user]
+	name = s2b
+	email = simon@praetorius.me
+[core]
+	excludesfile = ~/.gitignore_global
+[mergetool "Kaleidoscope"]
+[merge]
+	tool = Kaleidoscope
+[difftool "Kaleidoscope"]
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+	compactionHeuristic = 1
