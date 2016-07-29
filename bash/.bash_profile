@@ -61,6 +61,9 @@ alias localip="ipconfig getifaddr en0"
 # Remove all .DS_Store files in a directory
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
+# Flush DNS cache on macOS
+alias flushdns="sudo killall -HUP mDNSResponder"
+
 # Android web debugging
 # $ brew install android-sdk
 alias androiddebug='open http://localhost:9222 && adb forward tcp:9222 localabstract:chrome_devtools_remote'
