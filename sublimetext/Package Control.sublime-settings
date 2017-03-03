@@ -12,7 +12,6 @@
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
-		"EncodingHelper",
 		"GitGutter",
 		"Handlebars",
 		"Indent XML",
@@ -20,7 +19,6 @@
 		"JsFormat",
 		"Laravel Blade Highlighter",
 		"LESS",
-		"LineEndings",
 		"LoremIpsum",
 		"nginx",
 		"Package Control",
@@ -37,8 +35,8 @@
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"Twig",
-		"TypeScript",
 		"TYPO3 Fluid Snippets",
+		"TypoScript",
 		"Varnish VCL"
 	]
 }
