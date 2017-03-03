@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Frontend\Page\PageRepository]]></content>
+	<tabTrigger>t3pagerep</tabTrigger>
+	<scope>source.php</scope>
+	<description>PageRepository [t3pagerep]</description>
+</snippet>

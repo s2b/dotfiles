@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump(${1:$SELECTION}, '${2:SPR}');
+]]></content>
+	<tabTrigger>t3dump</tabTrigger>
+	<scope>source.php</scope>
+	<description>DebuggerUtility::var_dump [t3dump]</description>
+</snippet>

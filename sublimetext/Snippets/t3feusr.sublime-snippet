@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Domain\Model\FrontendUser]]></content>
+	<tabTrigger>t3feusr</tabTrigger>
+	<scope>source.php</scope>
+	<description>FrontendUser [t3feusr]</description>
+</snippet>

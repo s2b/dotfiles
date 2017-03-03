@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Core\Utility\DebugUtility::debug(${1:$SELECTION}, '${2:SPR}');
+]]></content>
+	<tabTrigger>t3debug</tabTrigger>
+	<scope>source.php</scope>
+	<description>DebugUtility::debug [t3debug]</description>
+</snippet>

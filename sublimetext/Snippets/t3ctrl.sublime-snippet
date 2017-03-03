@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Mvc\Controller\ActionController]]></content>
+	<tabTrigger>t3ctrl</tabTrigger>
+	<scope>source.php</scope>
+	<description>ActionController [t3ctrl]</description>
+</snippet>

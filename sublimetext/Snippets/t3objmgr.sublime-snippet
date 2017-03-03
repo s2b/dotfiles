@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Object\ObjectManager]]></content>
+	<tabTrigger>t3objmgr</tabTrigger>
+	<scope>source.php</scope>
+	<description>ObjectManager [t3objmgr]</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Utility\ExtensionUtility]]></content>
+	<tabTrigger>t3objmgr</tabTrigger>
+	<scope>source.php</scope>
+	<description>ExtensionUtility [t3objmgr]</description>
+</snippet>

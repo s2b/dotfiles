@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Persistence\Repository\FrontendUserGroupRepository]]></content>
+	<tabTrigger>t3fegrprep</tabTrigger>
+	<scope>source.php</scope>
+	<description>FrontendUserGroupRepository [t3fegrprep]</description>
+</snippet>

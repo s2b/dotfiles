@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Core\Bootstrap]]></content>
+	<tabTrigger>t3boot</tabTrigger>
+	<scope>source.php</scope>
+	<description>ExtBase Bootstrap [t3boot]</description>
+</snippet>

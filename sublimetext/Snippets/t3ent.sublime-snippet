@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\DomainObject\AbstractEntity]]></content>
+	<tabTrigger>t3ent</tabTrigger>
+	<scope>source.php</scope>
+	<description>AbstractEntity [t3ent]</description>
+</snippet>

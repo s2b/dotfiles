@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Persistence\Repository]]></content>
+	<tabTrigger>t3rep</tabTrigger>
+	<scope>source.php</scope>
+	<description>Repository [t3rep]</description>
+</snippet>

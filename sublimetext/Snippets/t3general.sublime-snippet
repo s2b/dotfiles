@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Core\Utility\GeneralUtility]]></content>
+	<tabTrigger>t3general</tabTrigger>
+	<scope>source.php</scope>
+	<description>GeneralUtility [t3general]</description>
+</snippet>

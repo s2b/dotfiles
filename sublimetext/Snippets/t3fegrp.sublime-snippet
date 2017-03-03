@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\TYPO3\CMS\Extbase\Domain\Model\FrontendUserGroup]]></content>
+	<tabTrigger>t3fegrp</tabTrigger>
+	<scope>source.php</scope>
+	<description>FrontendUserGroup [t3fegrp]</description>
+</snippet>
