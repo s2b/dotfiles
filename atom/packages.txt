@@ -1,4 +1,5 @@
 editorconfig
+file-icons
 file-types
 language-gitignore
 language-htaccess

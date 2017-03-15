@@ -12,6 +12,7 @@
       "monokai"
     ]
   editor:
+    scrollPastEnd: true
     showIndentGuide: true
     softTabs: false
     tabLength: 4
