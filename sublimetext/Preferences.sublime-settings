@@ -30,5 +30,6 @@
 			"syntax": "TypoScript/TypoScript"
 		}
 	],
-	"theme": "Soda Dark 3.sublime-theme"
+	"theme": "Soda Dark 3.sublime-theme",
+	"word_wrap": false
 }
