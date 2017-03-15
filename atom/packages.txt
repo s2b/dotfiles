@@ -5,3 +5,4 @@ language-gitignore
 language-htaccess
 language-typoscript
 monokai
+platform-ide-terminal

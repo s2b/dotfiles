@@ -19,8 +19,34 @@
   "file-types":
     "(setup|constants|tsconfig|ext_conf_template|ext_typoscript_(setup|constants))\\.txt$": "source.typoscript"
     txt: "text.plain"
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#3a3e42"
+        blue: "#507287"
+        cyan: "#5f8f8b"
+        green: "#a0a459"
+        magenta: "#856389"
+        red: "#943432"
+        white: "#e0b15f"
+      zBright:
+        brightBlack: "#2f3236"
+        brightBlue: "#507287"
+        brightCyan: "#5f8f8b"
+        brightGreen: "#a0a459"
+        brightMagenta: "#856389"
+        brightRed: "#c4c7c4"
+        brightYellow: "#e0b15f"
+    core:
+      mapTerminalsTo: "Folder"
+    style: {}
+    toggles:
+      runInsertedText: false
   tabs:
     enableVcsColoring: true
+  "terminal-plus":
+    core:
+      autoRunCommand: "/bin/bash"
   "tree-view":
     hideIgnoredNames: true
   welcome:
