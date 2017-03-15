@@ -1,0 +1,6 @@
+editorconfig
+file-types
+language-gitignore
+language-htaccess
+language-typoscript
+monokai
