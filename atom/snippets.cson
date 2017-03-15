@@ -1,0 +1,77 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+'.source.php':
+  'TYPO3 var_dump':
+    'prefix': 't3dump'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\DebuggerUtility::var_dump(${1:\$this}, \'${2:SPR}\');$3'
+
+  'TYPO3 debug':
+    'prefix': 't3debug'
+    'body': '\\\\TYPO3\\\\CMS\\\\Core\\\\Utility\\\\DebugUtility::debug(${1:\$this}, \'${2:SPR}\');$3'
+
+  'TYPO3 Bootstrap':
+    'prefix': 't3boot'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Core\\\\Bootstrap'
+
+  'TYPO3 ActionController':
+    'prefix': 't3ctrl'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Mvc\\\\Controller\\\\ActionController'
+
+  'TYPO3 AbstractEntity':
+    'prefix': 't3ent'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\DomainObject\\\\AbstractEntity'
+
+  'TYPO3 ExtensionUtility':
+    'prefix': 't3ext'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\ExtensionUtility'
+
+  'TYPO3 ExtensionManagementUtility':
+    'prefix': 't3extmgm'
+    'body': '\\\\TYPO3\\\\CMS\\\\Core\\\\Utility\\\\ExtensionManagementUtility'
+
+  'TYPO3 FrontendUserGroup':
+    'prefix': 't3fegrp'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Domain\\\\Model\\\\FrontendUserGroup'
+
+  'TYPO3 FrontendUser':
+    'prefix': 't3feusr'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Domain\\\\Model\\\\FrontendUser'
+
+  'TYPO3 FrontendUserRepository':
+    'prefix': 't3feusrrep'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository\\\\FrontendUserRepository'
+
+  'TYPO3 GeneralUtility':
+    'prefix': 't3general'
+    'body': '\\\\TYPO3\\\\CMS\\\\Core\\\\Utility\\\\GeneralUtility'
+
+  'TYPO3 ObjectManager':
+    'prefix': 't3objmgr'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Object\\\\ObjectManager'
+
+  'TYPO3 PageRepository':
+    'prefix': 't3pagerep'
+    'body': '\\\\TYPO3\\\\CMS\\\\Frontend\\\\Page\\\\PageRepository'
+
+  'TYPO3 Repository':
+    'prefix': 't3rep'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository'

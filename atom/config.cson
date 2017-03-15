@@ -1,0 +1,29 @@
+"*":
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "spell-check"
+      "welcome"
+    ]
+    projectHome: "~/Projekte/"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    showIndentGuide: true
+    softTabs: false
+    tabLength: 4
+  "file-types":
+    "(setup|constants|tsconfig|ext_conf_template|ext_typoscript_(setup|constants))\\.txt$": "source.typoscript"
+    txt: "text.plain"
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    removeTrailingWhitespace: false
