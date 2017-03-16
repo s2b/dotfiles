@@ -41,6 +41,7 @@
         brightYellow: "#e0b15f"
     core:
       mapTerminalsTo: "Folder"
+      workingDirectory: "Active File"
     style: {}
     toggles:
       runInsertedText: false
