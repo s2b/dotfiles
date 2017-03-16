@@ -11,6 +11,8 @@
       "one-dark-ui"
       "monokai"
     ]
+  docblockr:
+    spacer_between_sections: true
   editor:
     scrollPastEnd: true
     showIndentGuide: true
