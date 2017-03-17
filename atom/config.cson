@@ -7,6 +7,9 @@
       "spell-check"
       "welcome"
     ]
+    packagesWithKeymapsDisabled: [
+      "platformio-ide-terminal"
+    ]
     projectHome: "~/Projekte/"
     telemetryConsent: "no"
     themes: [
