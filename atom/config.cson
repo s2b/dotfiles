@@ -59,6 +59,4 @@
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
-  whitespace:
-    ensureSingleTrailingNewline: false
-    removeTrailingWhitespace: false
+  whitespace: {}
