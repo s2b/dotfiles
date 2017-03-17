@@ -75,6 +75,19 @@ alias androiddebug='open http://localhost:9222 && adb forward tcp:9222 localabst
 # Generate 8-digit simple password
 alias password="openssl rand -base64 6"
 
+# vagrant
+alias v="vagrant"
+alias vu="vagrant up"
+alias vh="vagrant halt"
+alias vd="vagrant destroy"
+alias vgs="vagrant global-status | grep virtualbox"
+alias vgsr="vagrant global-status | grep running"
+alias vbu="vagrant box update"
+alias vbl="vagrant box list"
+alias vs="vagrant suspend"
+alias vssh="vagrant ssh"
+alias vre="vagrant destroy; vagrant up;"
+
 #
 # More autocomplete for bash
 # $ brew install bash-completion
