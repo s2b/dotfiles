@@ -2,6 +2,7 @@ docblockr
 editorconfig
 file-icons
 file-types
+highlight-selected
 language-gitignore
 language-htaccess
 language-typoscript
