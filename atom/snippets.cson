@@ -75,3 +75,15 @@
   'TYPO3 Repository':
     'prefix': 't3rep'
     'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository'
+
+  'TYPO3 ConfigurationManagerInterface':
+    'prefix': 't3confmgrint'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\ConfigurationManagerInterface'
+
+  'TYPO3 QueryResult':
+   'prefix': 't3qres'
+   'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QueryResult'
+
+  'TYPO3 TypoScriptService':
+   'prefix': 't3ts'
+   'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Service\\\\TypoScriptService'
