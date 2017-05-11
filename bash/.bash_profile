@@ -91,6 +91,9 @@ alias vcd="cd `vagrant global-status | grep running | cut -f6- -d' '`"
 alias vha="vagrant global-status | grep running | cut -f1 -d' ' | xargs vagrant halt"
 alias vhu="vha && vu"
 
+# typo3
+alias t3pu="[[ -e bin/phpunit ]] && bin/phpunit -c vendor/typo3/testing-framework/Resources/Core/Build/UnitTests.xml || vendor/bin/phpunit -c vendor/typo3/testing-framework/Resources/Core/Build/UnitTests.xml"
+
 #
 # More autocomplete for bash
 # $ brew install bash-completion
