@@ -87,3 +87,15 @@
   'TYPO3 TypoScriptService':
    'prefix': 't3ts'
    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Service\\\\TypoScriptService'
+
+  'TYPO3 Descending':
+   'prefix': 't3desc'
+   'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface::ORDER_DESCENDING'
+
+  'TYPO3 Ascending':
+   'prefix': 't3asc'
+   'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface::ORDER_ASCENDING'
+
+  'TYPO3 ImageService':
+    'prefix': 't3img'
+    'body': '\\\\TYPO3\\\\CMS\\\\Extbase\\\\Service\\\\ImageService'
