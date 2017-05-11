@@ -87,6 +87,9 @@ alias vbl="vagrant box list"
 alias vs="vagrant suspend"
 alias vssh="vagrant ssh"
 alias vre="vagrant destroy; vagrant up;"
+alias vcd="cd `vagrant global-status | grep running | cut -f6- -d' '`"
+alias vha="vagrant global-status | grep running | cut -f1 -d' ' | xargs vagrant halt"
+alias vhu="vha && vu"
 
 #
 # More autocomplete for bash
