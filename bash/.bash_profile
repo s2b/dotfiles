@@ -105,6 +105,8 @@ alias dcdu="docker-compose down && docker-compose up"
 
 # typo3
 alias t3pu="[[ -e bin/phpunit ]] && bin/phpunit -c vendor/typo3/testing-framework/Resources/Core/Build/UnitTests.xml || vendor/bin/phpunit -c vendor/typo3/testing-framework/Resources/Core/Build/UnitTests.xml"
+alias t3cs="phpcs --extensions=php"
+
 # z
 # brew install z
 . /usr/local/etc/profile.d/z.sh
