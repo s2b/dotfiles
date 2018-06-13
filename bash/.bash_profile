@@ -163,3 +163,7 @@ _npm_install_completion () {
 }
 # bind the above function to `npm` autocompletion
 complete -o default -F _npm_install_completion npm
+
+# Node version manager
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
