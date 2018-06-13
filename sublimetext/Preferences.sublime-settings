@@ -3,6 +3,7 @@
 	"auto_find_in_selection": true,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night (SL).tmTheme",
+	"draw_white_space": "all",
 	"font_face": "Source Code Pro",
 	"font_size": 16,
 	"highlight_line": true,
