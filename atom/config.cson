@@ -2,11 +2,16 @@
   "autocomplete-plus":
     minimumWordLength: 2
   core:
-    audioBeep: false
+    customFileTypes:
+      "source.typoscript": [
+        "typoscript"
+      ]
     disabledPackages: [
       "spell-check"
       "welcome"
+      "platformio-ide-terminal"
     ]
+    excludeVcsIgnoredPaths: false
     packagesWithKeymapsDisabled: [
       "platformio-ide-terminal"
     ]
@@ -14,18 +19,44 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "monokai"
+      "chester-atom-syntax"
     ]
   docblockr:
-    spacer_between_sections: true
+    param_description: false
+    return_description: false
+    spacer_between_sections: "after_description"
   editor:
+    preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
+    showInvisibles: true
     softTabs: false
     tabLength: 4
   "file-types":
     "(setup|constants|tsconfig|ext_conf_template|ext_typoscript_(setup|constants))\\.txt$": "source.typoscript"
     txt: "text.plain"
+  "git-blame":
+    columnWidth: 371
+  "linter-php": {}
+  "linter-ui-default":
+    panelHeight: 118
+  "one-dark-ui": {}
+  "php-debug":
+    PathMaps: [
+    ]
+    PhpException:
+      CatchableFatalError: false
+      Deprecated: false
+      FatalError: false
+      Notice: false
+      ParseError: false
+      StrictStandards: false
+      UnknownError: false
+      Warning: false
+    SortArray: true
+    currentPanelHeight: "329px"
+    currentPanelMode: "bottom"
+    currentPanelWidth: "486px"
   "platformio-ide-terminal":
     ansiColors:
       normal:
@@ -50,6 +81,12 @@
     style: {}
     toggles:
       runInsertedText: false
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
   tabs:
     enableVcsColoring: true
   "terminal-plus":
@@ -59,4 +96,5 @@
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
-  whitespace: {}
+  whitespace:
+    ensureSingleTrailingNewline: false
