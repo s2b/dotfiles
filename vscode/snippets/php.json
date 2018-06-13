@@ -1,0 +1,87 @@
+{
+	"TYPO3 var_dump": {
+		"prefix": "t3dump",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\DebuggerUtility::var_dump($${1:this}, ${2:__CLASS__ . '->' . __FUNCTION__});$3"
+		],
+		"description": "DebuggerUtility var_dump"
+	},
+	"TYPO3 debug": {
+		"prefix": "t3debug",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Core\\\\Utility\\\\DebugUtility::debug($${1:this}, ${2:__CLASS__ . '->' . __FUNCTION__});$3"
+		],
+	},
+	"TYPO3 Bootstrap": {
+		"prefix": "t3boot",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Core\\\\Bootstrap"
+		],
+	},
+	"TYPO3 ActionController": {
+		"prefix": "t3ctrl",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Mvc\\\\Controller\\\\ActionController"
+		],
+	},
+	"TYPO3 AbstractEntity": {
+		"prefix": "t3ent",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\DomainObject\\\\AbstractEntity"
+		],
+	},
+	"TYPO3 ExtensionUtility": {
+		"prefix": "t3ext",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\ExtensionUtility"
+		],
+	},
+	"TYPO3 ExtensionManagementUtility": {
+		"prefix": "t3extmgm",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Core\\\\Utility\\\\ExtensionManagementUtility"
+		],
+	},
+	"TYPO3 FrontendUserGroup": {
+		"prefix": "t3fegrp",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Domain\\\\Model\\\\FrontendUserGroup"
+		],
+	},
+	"TYPO3 FrontendUser": {
+		"prefix": "t3feusr",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Domain\\\\Model\\\\FrontendUser"
+		],
+	},
+	"TYPO3 FrontendUserRepository": {
+		"prefix": "t3feusrrep",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository\\\\FrontendUserRepository"
+		],
+	},
+	"TYPO3 GeneralUtility": {
+		"prefix": "t3general",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Core\\\\Utility\\\\GeneralUtility"
+		],
+	},
+	"TYPO3 ObjectManager": {
+		"prefix": "t3objmgr",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Object\\\\ObjectManager"
+		],
+	},
+	"TYPO3 PageRepository": {
+		"prefix": "t3pagerep",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Frontend\\\\Page\\\\PageRepository"
+		],
+	},
+	"TYPO3 Repository": {
+		"prefix": "t3rep",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository"
+		],
+	},
+}

@@ -1,0 +1,37 @@
+{
+    "html": {
+        "snippets": {
+            "f:debug|f:d": "f:debug",
+            "f:debugi|f:di": "f:debug[inline=1]",
+            "f:variable": "f:variable[name value]/",
+
+            "f:for": "f:for[each as]",
+            "f:forrev|f:forr": "f:for[each as reverse=1]",
+            "f:if": "f:if[condition]",
+            "f:then": "f:then",
+            "f:else": "f:else",
+            "f:elseif|f:elif": "f:else[if]",
+            "f:ifelse|f:ifel": "f:if[condition]>f:then+f:else",
+            "f:switch": "f:switch[expression]>f:case[value]+f:defaultCase",
+            "f:case": "f:case[value]",
+            "f:defaultCase": "f:defaultCase",
+            
+            "f:cObject": "f:cObject[typoscriptObjectPath]",
+            "f:image|f:img": "f:image[image]/",
+
+            "f:link:page": "{<f:link.page pageUid=\"${1}\">${2}</f:link.page>}",
+            "f:link:action": "{<f:link.action action=\"${1}\"${2: controller=\"\" pluginName=\"\" extensionName=\"\"} arguments=\"${3}\">${4}</f:link.action>}",
+
+            "f:format:bytes": "{<f:format.bytes>${1}</f:format.bytes>}",
+            "f:format:case": "{<f:format.case${1: mode=\"upper\"}>${2}</f:format.case>}",
+            "f:format:raw": "{<f:format.raw>${1}</f:format.raw>}",
+            "f:format:html": "{<f:format.html>${1}</f:format.html>}"
+        }
+    },
+    "xml": {
+        "snippets": {
+            "trans-unit": "trans-unit[id]>source+target",
+            "source": "source"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "atomKeymap.promptV3Features": true,
+
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.folding": false,
+    "editor.wordWrapColumn": 120,
+    "editor.fontSize": 14,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "emmet.extensionsPath": "~/Library/Application Support/Code/User/emmet/",
+    "emmet.syntaxProfiles": {
+        "html": "xhtml"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.snippetSuggestions": "top",
+
+    "explorer.autoReveal": false,
+
+
+    "files.associations": {
+        "*.ts": "typoscript",
+        "*.ts2": "typoscript",
+        "setup.txt": "typoscript",
+        "constants.txt": "typoscript",
+        "ext_typoscript_setup.txt": "typoscript",
+        "ext_conf_template.txt": "typoscript"
+    },
+
+    "workbench.colorTheme": "One Dark Pro Vivid",
+
+    "php-docblocker.author": {
+        "name": "Simon Praetorius",
+        "email": "praetorius@sitegeist.de"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": false,
+    "workbench.statusBar.feedback.visible": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+}
