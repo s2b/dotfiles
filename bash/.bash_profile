@@ -10,8 +10,8 @@ PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Use current PHP version for CLI
 # $ brew tap homebrew/php
-# $ brew install php56
-PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+# $ brew install php72
+PATH="$(brew --prefix homebrew/php/php72)/bin:$PATH"
 
 # Add composer path
 export COMPOSER_HOME="~/.composer"
