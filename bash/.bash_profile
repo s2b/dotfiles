@@ -8,6 +8,9 @@ ssh-add ~/.ssh/id_rsa 2> /dev/null
 # Add local bin/sbin
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
+# Add user bin
+PATH="$HOME/bin:$PATH"
+
 # Use current PHP version for CLI
 # $ brew tap homebrew/php
 # $ brew install php72
