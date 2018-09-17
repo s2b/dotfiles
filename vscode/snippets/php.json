@@ -84,4 +84,10 @@
 			"\\\\TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Repository"
 		],
 	},
+	"TYPO3 Singleton": {
+		"prefix": "t3single",
+		"body": [
+			"\\\\TYPO3\\\\CMS\\\\Core\\\\SingletonInterface"
+		]
+	}
 }

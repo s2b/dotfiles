@@ -25,7 +25,11 @@
             "f:format:bytes": "{<f:format.bytes>${1}</f:format.bytes>}",
             "f:format:case": "{<f:format.case${1: mode=\"upper\"}>${2}</f:format.case>}",
             "f:format:raw": "{<f:format.raw>${1}</f:format.raw>}",
-            "f:format:html": "{<f:format.html>${1}</f:format.html>}"
+            "f:format:html": "{<f:format.html>${1}</f:format.html>}",
+
+            "fc:component|fc:c": "fc:component",
+            "fc:param|fc:p": "fc:param[name type=string]/",
+            "fc:renderer|fc:r": "fc:renderer"
         }
     },
     "xml": {
