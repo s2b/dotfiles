@@ -12,6 +12,7 @@
         "comments": true,
         "strings": true
     },
+    "editor.tabCompletion": true,
     "emmet.extensionsPath": "~/Library/Application Support/Code/User/emmet/",
     "emmet.syntaxProfiles": {
         "html": "xhtml"
@@ -31,8 +32,6 @@
         "ext_conf_template.txt": "typoscript"
     },
 
-    "workbench.colorTheme": "One Dark Pro Vivid",
-
     "php-docblocker.author": {
         "name": "Simon Praetorius",
         "email": "praetorius@sitegeist.de"
@@ -42,4 +41,8 @@
     "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 0,
+    "window.newWindowDimensions": "maximized",
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "search.useIgnoreFiles": false
 }
