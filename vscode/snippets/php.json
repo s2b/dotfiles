@@ -89,5 +89,65 @@
 		"body": [
 			"\\\\TYPO3\\\\CMS\\\\Core\\\\SingletonInterface"
 		]
+	},
+	"TYPO3 Property": {
+		"prefix": "t3prop",
+		"body": [
+			"/**",
+			" * @var ${2:string}",
+			" */",
+			"protected \\$${1:field};"
+		]
+	},
+	"TYPO3 Getter": {
+		"prefix": "t3get",
+		"body": [
+			"/**",
+			" * @return ${3:string}",
+			" */",
+			"public function get${1:Field}(): ${3}",
+			"{",
+			"    return \\$this->${2:field};",
+			"}",
+		]
+	},
+	"TYPO3 Setter": {
+		"prefix": "t3set",
+		"body": [
+			"/**",
+			" * @param ${3:string} \\$${2}",
+			" * @return void",
+			" */",
+			"public function set${1:Field}(${3} \\$${2:field}): void",
+			"{",
+			"    \\$this->${2} = \\$${2};",
+			"}"
+		]
+	},
+	"TYPO3 Getter and Setter": {
+		"prefix": "t3getset",
+		"body": [
+			"/**",
+			" * @var ${3:string}",
+			" */",
+			"protected \\$${2:field};",
+			"",
+			"/**",
+			" * @return ${3}",
+			" */",
+			"public function get${1:Field}(): ${3}",
+			"{",
+			"    return \\$this->${2:field};",
+			"}",
+			"",
+			"/**",
+			" * @param ${3} \\$${2}",
+			" * @return void",
+			" */",
+			"public function set${1}(${3} \\$${2}): void",
+			"{",
+			"    \\$this->${2} = \\$${2};",
+			"}"
+		]
 	}
 }
