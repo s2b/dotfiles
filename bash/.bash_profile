@@ -11,29 +11,11 @@ PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # Add user bin
 PATH="$HOME/bin:$PATH"
 
-# Use current PHP version for CLI
-# $ brew tap homebrew/php
-# $ brew install php72
-PATH="$(brew --prefix homebrew/php/php72)/bin:$PATH"
-
 # Add composer path
 export COMPOSER_HOME="~/.composer"
 PATH="$PATH:$COMPOSER_HOME/vendor/bin"
 
 export PATH
-
-#
-# Set constants
-#
-
-# Use SublimeText as editor
-# $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sl
-if [ $(which sl) ]; then
-	export EDITOR='sl -w'
-fi
-
-# wiro-git default directory
-export WIRO_GIT_DESTINATION="$(pwd ~)/WiRo/git/Extensions"
 
 #
 # Configure prompt
@@ -82,20 +64,22 @@ alias androiddebug='open http://localhost:9222 && adb forward tcp:9222 localabst
 alias password="openssl rand -base64 6"
 
 # vagrant
-alias v="vagrant"
-alias vu="vagrant up"
-alias vh="vagrant halt"
-alias vd="vagrant destroy"
-alias vgs="vagrant global-status | grep virtualbox"
-alias vgsr="vagrant global-status | grep running"
-alias vbu="vagrant box update"
-alias vbl="vagrant box list"
-alias vs="vagrant suspend"
-alias vssh="vagrant ssh"
-alias vre="vagrant destroy; vagrant up;"
-alias vcd="cd `vagrant global-status | grep running | cut -f6- -d' '`"
-alias vha="vagrant global-status | grep running | cut -f1 -d' ' | xargs vagrant halt"
-alias vhu="vha && vu"
+if [ `which vagrant` ]; then
+	alias v="vagrant"
+	alias vu="vagrant up"
+	alias vh="vagrant halt"
+	alias vd="vagrant destroy"
+	alias vgs="vagrant global-status | grep virtualbox"
+	alias vgsr="vagrant global-status | grep running"
+	alias vbu="vagrant box update"
+	alias vbl="vagrant box list"
+	alias vs="vagrant suspend"
+	alias vssh="vagrant ssh"
+	alias vre="vagrant destroy; vagrant up;"
+	alias vcd="cd `vagrant global-status | grep running | cut -f6- -d' '`"
+	alias vha="vagrant global-status | grep running | cut -f1 -d' ' | xargs vagrant halt"
+	alias vhu="vha && vu"
+fi
 
 # docker-compose
 alias dc="docker-compose"
