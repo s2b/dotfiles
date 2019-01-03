@@ -42,7 +42,6 @@
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 0,
     "window.newWindowDimensions": "maximized",
-    "breadcrumbs.enabled": true,
     "workbench.colorTheme": "One Dark Pro Vivid",
     "search.useIgnoreFiles": false
 }
