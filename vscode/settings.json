@@ -12,7 +12,7 @@
         "comments": true,
         "strings": true
     },
-    "editor.tabCompletion": true,
+    "editor.tabCompletion": "on",
     "emmet.extensionsPath": "~/Library/Application Support/Code/User/emmet/",
     "emmet.syntaxProfiles": {
         "html": "xhtml"
