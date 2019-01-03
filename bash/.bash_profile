@@ -76,7 +76,6 @@ if [ `which vagrant` ]; then
 	alias vs="vagrant suspend"
 	alias vssh="vagrant ssh"
 	alias vre="vagrant destroy; vagrant up;"
-	alias vcd="cd `vagrant global-status | grep running | cut -f6- -d' '`"
 	alias vha="vagrant global-status | grep running | cut -f1 -d' ' | xargs vagrant halt"
 	alias vhu="vha && vu"
 fi
@@ -103,8 +102,8 @@ alias t3cs="phpcs --extensions=php"
 # More autocomplete for bash
 # $ brew install bash-completion
 #
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-	. $(brew --prefix)/etc/bash_completion
+if [ -f /usr/local/etc/bash_completion ]; then
+	. /usr/local/etc/bash_completion
 fi
 
 #
@@ -159,4 +158,5 @@ complete -o default -F _npm_install_completion npm
 
 # Node version manager
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
