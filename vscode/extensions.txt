@@ -19,7 +19,7 @@ ms-vsliveshare.vsliveshare
 neilbrayfield.php-docblocker
 networkteam.neos-fusion
 PeterJausovec.vscode-docker
+PKief.material-icon-theme
 shinnn.stylelint
 waderyan.gitblame
 zhuangtongfa.Material-theme
-Zyst.Egoist-One
