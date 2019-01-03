@@ -1,5 +1,6 @@
 [user]
 	name = Simon Praetorius
+	email = praetorius@sitegeist.de
 [core]
 	excludesfile = ~/.gitignore-global
 [diff]
@@ -11,9 +12,9 @@
 	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
 
-[includeIf "gitdir:/Users/simon/"]
-	path = ~/.gitconfig-work
 [includeIf "gitdir:/Users/praetorius/"]
 	path = ~/.gitconfig-work
 [includeIf "gitdir:/Users/s2b/"]
+	path = ~/.gitconfig-personal
+[includeIf "gitdir:/Users/praetorius/Core/"]
 	path = ~/.gitconfig-personal
