@@ -22,7 +22,6 @@
 
     "explorer.autoReveal": false,
 
-
     "files.associations": {
         "*.ts": "typoscript",
         "*.ts2": "typoscript",
@@ -31,6 +30,22 @@
         "ext_typoscript_setup.txt": "typoscript",
         "ext_conf_template.txt": "typoscript"
     },
+
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.associations": {
+        "*.typoscript": "typescript",
+        "*.tsconfig": "typescript",
+        "*.ts": "typescript",
+        "*.ts2": "typescript",
+        "constants.txt": "typescript",
+        "setup.txt": "typescript",
+        "ext_typoscript_setup.txt": "typescript",
+        "ext_conf_template.txt": "typescript",
+        "robots.txt": "robot"
+    },
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "material-icon-theme.opacity": 0.9,
 
     "php-docblocker.author": {
         "name": "Simon Praetorius",
