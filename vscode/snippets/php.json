@@ -1,4 +1,11 @@
 {
+	"PHP strict_types": {
+		"prefix": "strict_types",
+		"body": [
+			"declare(strict_types=1);"
+		],
+		"description": "Declare strict types"
+	},
 	"TYPO3 var_dump": {
 		"prefix": "t3dump",
 		"body": [
@@ -147,6 +154,24 @@
 			"public function set${1}(${3} \\$${2}): void",
 			"{",
 			"    \\$this->${2} = \\$${2};",
+			"}"
+		]
+	},
+	"TYPO3 Inject": {
+		"prefix": "t3inject",
+		"body": [
+			"/**",
+			" * @var ${1:Service}",
+			" */",
+			"protected \\$${2:service};",
+			"",
+			"/**",
+			" * @param ${1:Service} \\$${2:service}",
+			" * @return void",
+			" */",
+			"public function inject${1:Service}(${1:Service} \\$${2:service}): void",
+			"{",
+			"	\\$this->${2:service} = \\$${2:service};",
 			"}"
 		]
 	}
