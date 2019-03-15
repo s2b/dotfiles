@@ -2,13 +2,16 @@ Atishay-Jain.All-Autocomplete
 bbenoist.vagrant
 benjaminkott.typo3-typoscript
 bierner.markdown-preview-github-styles
+bmewburn.vscode-intelephense-client
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
+DotJoshJohnson.xml
 EditorConfig.EditorConfig
 felixfbecker.php-debug
 felixfbecker.php-intellisense
 felixfbecker.php-pack
 GrapeCity.gc-excelviewer
+johnpapa.vscode-peacock
 lextudio.restructuredtext
 mechatroner.rainbow-csv
 mikestead.dotenv
@@ -23,3 +26,4 @@ PKief.material-icon-theme
 shinnn.stylelint
 waderyan.gitblame
 zhuangtongfa.Material-theme
+zvlad.inserttimestamp

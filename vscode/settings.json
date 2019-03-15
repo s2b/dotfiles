@@ -58,5 +58,9 @@
     "window.zoomLevel": 0,
     "window.newWindowDimensions": "maximized",
     "workbench.colorTheme": "One Dark Pro Vivid",
-    "search.useIgnoreFiles": false
+    "search.useIgnoreFiles": false,
+    "workbench.sideBar.location": "right",
+    "breadcrumbs.enabled": false,
+    "php.suggest.basic": false,
+    "peacock.affectStatusBar": true
 }
