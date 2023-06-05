@@ -1,30 +1,26 @@
-# zsh completions
-if type brew &>/dev/null; then
-    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+#
+# Load brew environment
+#
+eval "$(/opt/homebrew/bin/brew shellenv)"
+source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
-    autoload -Uz compinit
-    compinit
-fi
-
-# z folder manager
+#
+# Initialize z
+#
 . /opt/homebrew/etc/profile.d/z.sh
 
-# Better directory listings
+#
+# Define aliases
+#
 alias ll='ls -lah'
-
-# Obtain local and online ip
 alias ip="curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g'"
 alias localip="ipconfig getifaddr en0"
-
-# Generate 8-digit simple password
 alias password="openssl rand -base64 6"
+alias code="codium"
 
-# docker-compose
-alias dc="docker-compose"
-alias dcu="docker-compose up"
-alias dcd="docker-compose down"
-alias dcdu="docker-compose down && docker-compose up"
-alias dclw="docker-compose logs -f web"
+#
+# Configure prompt
+#
 
 # Load version control information
 autoload -Uz vcs_info
