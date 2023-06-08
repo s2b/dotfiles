@@ -1,69 +1,29 @@
 {
-    "atomKeymap.promptV3Features": true,
+    "window.newWindowDimensions": "maximized",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.startupEditor": "newUntitledFile",
+    "breadcrumbs.enabled": false,
 
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
     "editor.renderWhitespace": "boundary",
     "editor.folding": false,
     "editor.wordWrapColumn": 120,
-    "editor.fontSize": 14,
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-    },
-    "editor.tabCompletion": "on",
     "emmet.extensionsPath": [
-        "~/Library/Application Support/Code/User/emmet/"
+        "~/Library/Application Support/VSCodium/User/emmet/"
     ],
-    "emmet.syntaxProfiles": {
-        "html": "xhtml"
-    },
-    "emmet.showSuggestionsAsSnippets": true,
-    "editor.snippetSuggestions": "top",
+    "emmet.triggerExpansionOnTab": true,
 
     "explorer.autoReveal": false,
-
-    "files.associations": {
-        "*.ts": "typoscript",
-        "*.ts2": "typoscript",
-        "setup.txt": "typoscript",
-        "constants.txt": "typoscript",
-        "ext_typoscript_setup.txt": "typoscript",
-        "ext_conf_template.txt": "typoscript"
-    },
-
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.files.associations": {
-        "*.typoscript": "typescript",
-        "*.tsconfig": "typescript",
-        "*.ts": "typescript",
-        "*.ts2": "typescript",
-        "constants.txt": "typescript",
-        "setup.txt": "typescript",
-        "ext_typoscript_setup.txt": "typescript",
-        "ext_conf_template.txt": "typescript",
-        "robots.txt": "robot"
-    },
-    "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.folders.color": "#90a4ae",
-    "material-icon-theme.opacity": 0.9,
-
-    "php-docblocker.author": {
-        "name": "Simon Praetorius",
-        "email": "praetorius@sitegeist.de"
-    },
-    "workbench.startupEditor": "newUntitledFile",
-    "extensions.ignoreRecommendations": false,
-    "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 0,
-    "window.newWindowDimensions": "maximized",
-    "workbench.colorTheme": "One Dark Pro Vivid",
     "search.useIgnoreFiles": false,
-    "workbench.sideBar.location": "right",
-    "breadcrumbs.enabled": false,
-    "php.suggest.basic": false,
-    "peacock.affectStatusBar": true,
-    "workbench.editor.untitled.hint": "hidden"
+
+    "svelte.enable-ts-plugin": true,
+    
+    "oneDarkPro.vivid": true,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "vue",
+    "material-icon-theme.opacity": 0.9,
 }
