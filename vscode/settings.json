@@ -3,7 +3,6 @@
     "workbench.sideBar.location": "right",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.startupEditor": "newUntitledFile",
-    "breadcrumbs.enabled": false,
 
     "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -26,4 +25,5 @@
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.opacity": 0.9,
+    "git.openRepositoryInParentFolders": "never",
 }
