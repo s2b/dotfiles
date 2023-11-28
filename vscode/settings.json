@@ -1,10 +1,10 @@
 {
     "window.newWindowDimensions": "maximized",
     "workbench.sideBar.location": "right",
-    "workbench.editor.untitled.hint": "hidden",
     "workbench.startupEditor": "newUntitledFile",
 
-    "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Monaspace Neon', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "boundary",
     "editor.folding": false,
@@ -26,4 +26,17 @@
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.opacity": 0.9,
     "git.openRepositoryInParentFolders": "never",
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "namespaceResolver.sortAlphabetically": true,
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "php.cache.enableOnlineCache": false,
+    "editor.minimap.enabled": false,
 }
