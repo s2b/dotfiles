@@ -31,3 +31,9 @@ zstyle ':vcs_info:git:*' formats ' (%b)'
 # configure prompt
 setopt PROMPT_SUBST
 PROMPT=$'\n'"%F{magenta}%n@%m:%B%F{cyan}%~%F{yellow}\$vcs_info_msg_0_%f%b"$'\n'"$ "
+
+#
+# Setup completion
+#
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+autoload -Uz compinit && compinit
