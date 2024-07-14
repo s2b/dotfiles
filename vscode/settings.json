@@ -2,7 +2,15 @@
     "window.newWindowDimensions": "maximized",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.empty.hint": "hidden",
+    "debug.toolBarLocation": "docked",
 
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontalScrollbarSize": 14,
+    "editor.scrollbar.verticalScrollbarSize": 18,
+    "editor.scrollbar.vertical": "visible",
+
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Monaspace Neon', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -17,26 +25,26 @@
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
     "search.useIgnoreFiles": false,
+    "git.openRepositoryInParentFolders": "never",
 
-    "svelte.enable-ts-plugin": true,
-    
-    "oneDarkPro.vivid": true,
-    "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.opacity": 0.9,
-    "git.openRepositoryInParentFolders": "never",
+
     "[svelte]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "javascript.updateImportsOnFileMove.enabled": "never",
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.editor.empty.hint": "hidden",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "svelte.enable-ts-plugin": true,
     "namespaceResolver.sortAlphabetically": true,
     "php.suggest.basic": false,
     "php.validate.enable": false,
     "php.cache.enableOnlineCache": false,
-    "editor.minimap.enabled": false,
+
+    "redhat.telemetry.enabled": false
 }
