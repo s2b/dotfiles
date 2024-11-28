@@ -21,6 +21,11 @@
         "~/Library/Application Support/VSCodium/User/emmet/"
     ],
     "emmet.triggerExpansionOnTab": true,
+    "emmet.syntaxProfiles": {
+        "html": {
+            "self_closing_tag" : "xhtml"
+        }
+    },
 
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
@@ -46,5 +51,9 @@
     "php.validate.enable": false,
     "php.cache.enableOnlineCache": false,
 
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "intelliphp.inlineSuggestionsEnabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "php.completion.showDeprecated": "showStrikethrough",
+    "php.inlayHints.parameters.enabled": false
 }

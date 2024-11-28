@@ -1,4 +1,17 @@
 {
+	"new php file": {
+		"prefix": "classfile",
+		"body": [
+			"",
+			"declare(strict_types=1);",
+			"",
+			"namespace ${1:VENDOR};",
+			"",
+			"class ${2:${TM_FILENAME/(.*)\\..+$/$1/}}",
+			"{$0}",
+			""
+		]
+	},
 	"PHP strict_types": {
 		"prefix": "strict_types",
 		"body": [

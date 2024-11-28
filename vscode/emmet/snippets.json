@@ -27,7 +27,7 @@
             "f:format:raw": "{<f:format.raw>${1}</f:format.raw>}",
             "f:format:html": "{<f:format.html>${1}</f:format.html>}",
 
-            "fc:component|fc:c": "fc:component",
+            "fc:component|fc:c": "fc:component>fc:renderer",
             "fc:param|fc:p": "fc:param[name type=string]/",
             "fc:renderer|fc:r": "fc:renderer"
         }
