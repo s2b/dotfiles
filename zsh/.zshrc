@@ -16,6 +16,7 @@ alias ip="curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g'"
 alias localip="ipconfig getifaddr en0"
 alias password="openssl rand -base64 6"
 alias code="codium"
+alias gittower="gittower -n"
 
 #
 # Configure prompt
