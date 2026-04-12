@@ -17,14 +17,18 @@ alias localip="ipconfig getifaddr en0"
 alias password="openssl rand -base64 6"
 alias code="codium"
 alias gittower="gittower -n"
+alias render-wysiwyg="docker run --rm -it --pull always \
+  -v './Documentation:/project/Documentation' \
+  -v './Documentation-GENERATED-temp:/project/Documentation-GENERATED-temp' \
+  -p 1337:1337 ghcr.io/typo3-documentation/render-guides:latest --watch"
+
 
 #
 # Configure prompt
 #
 
 # Load version control information
-autoload -Uz vcs_info
-precmd() { vcs_info }
+autoload -Uz vcs_infoprecmd() { vcs_info }
 
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats ' (%b)'
