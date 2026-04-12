@@ -10,7 +10,7 @@
             "f:if": "f:if[condition]",
             "f:then": "f:then",
             "f:else": "f:else",
-            "f:elseif|f:elif": "f:else[if]",
+            "f:elseif": "f:else[if]",
             "f:ifelse|f:ifel": "f:if[condition]>f:then+f:else",
             "f:switch": "f:switch[expression]>f:case[value]+f:defaultCase",
             "f:case": "f:case[value]",
@@ -29,7 +29,10 @@
 
             "fc:component|fc:c": "fc:component>fc:renderer",
             "fc:param|fc:p": "fc:param[name type=string]/",
-            "fc:renderer|fc:r": "fc:renderer"
+            "fc:renderer|fc:r": "fc:renderer",
+            "f:argument|f:a": "f:argument[name type=string]/",
+            "f:slot|f:s": "f:slot/",
+            "f:fragment|f:f": "f:fragment[name]/"
         }
     },
     "xml": {

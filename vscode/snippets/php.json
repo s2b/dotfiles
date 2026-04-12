@@ -116,7 +116,7 @@
 			"/**",
 			" * @var ${2:string}",
 			" */",
-			"protected \\$${1:field};"
+			"protected ${2:string} \\$${1:field};"
 		]
 	},
 	"TYPO3 Getter": {
@@ -150,7 +150,7 @@
 			"/**",
 			" * @var ${3:string}",
 			" */",
-			"protected \\$${2:field};",
+			"protected ${3:string} \\$${2:field};",
 			"",
 			"/**",
 			" * @return ${3}",
@@ -176,7 +176,7 @@
 			"/**",
 			" * @var ${1:Service}",
 			" */",
-			"protected \\$${2:service};",
+			"protected ${1:Service} \\$${2:service};",
 			"",
 			"/**",
 			" * @param ${1:Service} \\$${2:service}",
