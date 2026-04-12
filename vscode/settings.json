@@ -9,6 +9,7 @@
     "editor.scrollbar.horizontalScrollbarSize": 14,
     "editor.scrollbar.verticalScrollbarSize": 18,
     "editor.scrollbar.vertical": "visible",
+    "workbench.tree.indent": 20,
 
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
@@ -16,6 +17,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "boundary",
     "editor.folding": false,
+    "editor.showFoldingControls": "never",
     "editor.wordWrapColumn": 120,
     "emmet.extensionsPath": [
         "~/Library/Application Support/VSCodium/User/emmet/"
@@ -33,6 +35,7 @@
     "git.openRepositoryInParentFolders": "never",
 
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark Modern",
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.opacity": 0.9,
 
@@ -45,15 +48,44 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
     "svelte.enable-ts-plugin": true,
-    "namespaceResolver.sortAlphabetically": true,
-    "php.suggest.basic": false,
-    "php.validate.enable": false,
-    "php.cache.enableOnlineCache": false,
+    "js/ts.updateImportsOnFileMove.enabled": "never",
 
-    "redhat.telemetry.enabled": false,
+    "php.suggest.basic": false,
+    "php.validate.enable": false,    
     "intelliphp.inlineSuggestionsEnabled": false,
-    "javascript.updateImportsOnFileMove.enabled": "never",
     "php.completion.showDeprecated": "showStrikethrough",
-    "php.inlayHints.parameters.enabled": false
+    "php.inlayHints.parameters.enabled": false,
+    "php.completion.autoimport-docblock": "auto-import",
+    "php.problems.exclude": {
+        "/": [
+            "php_fqn_class"
+        ],
+        "**/*": [
+            "PHP0406"
+        ]
+    },
+    "php.docblock.variableSnippet": {
+        "singleline": true
+    },
+
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode-html-languageservice/refs/heads/main/docs/customData.schema.json": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
+
+    "chat.disableAIFeatures": true,
+    "redhat.telemetry.enabled": false
 }
