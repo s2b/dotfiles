@@ -28,7 +28,8 @@ alias render-wysiwyg="docker run --rm -it --pull always \
 #
 
 # Load version control information
-autoload -Uz vcs_infoprecmd() { vcs_info }
+autoload -Uz vcs_info
+precmd() { vcs_info }
 
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats ' (%b)'
