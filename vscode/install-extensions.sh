@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
 while read e; do
-  code --install-extension "$e"
+  codium --install-extension "$e"
 done <extensions.txt
