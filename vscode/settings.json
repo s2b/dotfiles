@@ -3,7 +3,7 @@
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.empty.hint": "hidden",
-    "debug.toolBarLocation": "docked",
+    "debug.toolBarLocation": "commandCenter",
 
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontalScrollbarSize": 14,
@@ -28,6 +28,7 @@
             "self_closing_tag" : "xhtml"
         }
     },
+    "editor.linkedEditing": true,
 
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
@@ -35,7 +36,7 @@
     "git.openRepositoryInParentFolders": "never",
 
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Dark Modern",
     "material-icon-theme.activeIconPack": "vue",
     "material-icon-theme.opacity": 0.9,
 
@@ -58,7 +59,7 @@
     "js/ts.updateImportsOnFileMove.enabled": "never",
 
     "php.suggest.basic": false,
-    "php.validate.enable": false,    
+    "php.validate.enable": false,
     "intelliphp.inlineSuggestionsEnabled": false,
     "php.completion.showDeprecated": "showStrikethrough",
     "php.inlayHints.parameters.enabled": false,
